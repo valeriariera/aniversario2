@@ -100,11 +100,14 @@ body {
 }
 
 .hero-overline {
-  font-size: 1rem;
-  letter-spacing: 0.35em;
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;         
+  font-weight: 700;
+  letter-spacing: 0.15rem;
   text-transform: uppercase;
-  font-weight: 400;
+  margin-bottom: 0.5rem;
 }
+
 
 .hero-title {
   font-family: "Poppins", sans-serif;
@@ -238,9 +241,12 @@ body {
     font-size: 2.4rem;
   }
 
-  .hero-anniversary {
-    font-size: 2rem;
-  }
+ .hero-anniversary {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 300;
+  font-style: italic;   /* <-- aquí está la cursiva */
+}
 
   .section h2 {
     font-size: 1.4rem;
